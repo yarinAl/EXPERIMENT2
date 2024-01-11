@@ -4,7 +4,6 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms'
 import { MatIconModule } from '@angular/material/icon'
 import { MatSelectModule } from '@angular/material/select'
 import { ActivatedRoute, Router, RouterModule } from '@angular/router'
-import { NgxStarRatingModule } from 'ngx-star-rating'
 import { Subscription } from 'rxjs'
 import { Episode, Season, Show } from 'src/app/interfaces/show.interface'
 import { ShowResolverData } from 'src/app/resolvers/show-resolver.service'
@@ -19,7 +18,6 @@ import { ShowsService } from 'src/app/services/shows.service'
     MatSelectModule,
     ReactiveFormsModule,
     MatIconModule,
-    NgxStarRatingModule,
   ],
   templateUrl: './show.component.html',
   styleUrls: ['./show.component.scss'],
